@@ -2,14 +2,14 @@ import React, { useState, useEffect } from "react";
 import "./profilesCardsStyles.css";
 import TinderCard from "react-tinder-card";
 import { database } from "../services/firebase";
-import { getFirestore, collection, getDocs } from "firebase/firestore";
+import {  collection, getDocs } from "firebase/firestore";
 
 function ProfilesCards() {
   const [dataMatch, setDataMatch] = useState([]);
 
   useEffect(() => {
-    const db = getFirestore();
-    const perfilesRef = collection(db, "perfiles");
+
+    const perfilesRef = collection(database, "perfiles");
 
     const fetchData = async () => {
       const snapshot = await getDocs(perfilesRef);
