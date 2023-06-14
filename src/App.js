@@ -1,23 +1,21 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import HeaderCom from "./components/header/HeaderCom";
+import { Route, BrowserRouter as Router, Routes } from "react-router-dom";
+import ProfilesCards from "./components/profiles/ProfilesCards";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          TOUCH AND GO
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Router>
+        <HeaderCom />
+
+        <Routes>
+          <Route path="/perfil" element={"tu perfil"} />
+          <Route path="/chats" element={"tus chats"} />
+          <Route path="/" element={<ProfilesCards/>}/>
+
+        </Routes>
+      </Router>
     </div>
   );
 }

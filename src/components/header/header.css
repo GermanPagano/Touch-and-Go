@@ -1,0 +1,32 @@
+.header{
+
+    display: flex;
+    padding: 0.5rem;
+    flex-direction:row;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #fbfbfb;
+
+}
+
+.header-logo{
+    max-width: 200px;
+    object-fit: contain;
+}
+
+.header-icon{
+
+    padding: 1rem;
+}
+
+@media (min-width: 350px) and (max-width: 768px) {
+    .header{
+        padding: 0;
+        margin-top: 2rem;
+    }
+    .header-logo{
+        max-width: 125px;
+        object-fit: contain;
+    }
+  }
+  
