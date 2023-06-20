@@ -1,0 +1,12 @@
+.btnAction{
+    display: flex;
+    width: 100%;
+    position: fixed;
+    bottom: 10vh;
+    justify-content: space-evenly;
+}
+
+.btnAction .MuiButtonBase-root {
+    background-color: white;
+    box-shadow: 0 10px 50px rgba(0, 0, 0, 0.467);
+}

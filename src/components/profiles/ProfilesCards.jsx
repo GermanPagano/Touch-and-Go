@@ -43,7 +43,9 @@ function ProfilesCards() {
               <h2>{p.nombre}</h2>
             </div>
           </TinderCard>
+
         ))}
+
       </div>
     </div>
   );
