@@ -5,6 +5,9 @@ import ProfilesCards from "./components/profiles/ProfilesCards";
 import { ProfilesCardsContextProvider } from "../src/context/ProfilesCardsContext";
 
 function App() {
+
+
+
   return (
     <div className="App">
       <ProfilesCardsContextProvider>

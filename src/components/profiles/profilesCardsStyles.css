@@ -1,14 +1,12 @@
-
 .card-tinder {
     position: relative;
     width: 700px;
     padding: 20px;
     max-width: 85vw;
     height: 60vh;
-    border-radius: 20px ;
+    border-radius: 20px;
     background-size: cover;
     background-position: center;
-
   }
   
   .card-tinder h2 {
@@ -27,51 +25,49 @@
     display: flex;
     max-width: 700px;
     justify-content: center;
-
-
   }
   
   .swipe {
     position: absolute;
   }
   
-.cards-and-buttons{
-    
+  .cards-and-buttons {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    
-}
-
-@media (min-width: 350px) and (max-width: 768px) {
-
+  }
+  
+  @media (min-width: 350px) and (max-width: 768px) {
+    body {
+      overflow-x: hidden !important;
+    }
+  
     .card-tinder {
-        margin-top: 1rem;
-        position: relative;
-        width: 700px;
-        padding: 20px;
-        max-width: 85vw;
-        height: 60vh;
-        border-radius: 20px ;
-        background-size: cover;
-        background-position: center;
-        
-      }
+      margin-top: 1rem;
+      position: relative;
+      width: 700px;
+      padding: 20px;
+      max-width: 85vw;
+      height: 60vh;
+      border-radius: 20px;
+      background-size: cover;
+      background-position: center;
+      overflow-x: hidden !important
 
-
-      .cards-profiles {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-      }
-      
-      .container-cards {
-        display: flex;
-        max-width: 700px;
-        justify-content: center;
-    
-    
-      }
+    }
+  
+    .cards-profiles {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      overflow-x: hidden !important
+    }
+  
+    .container-cards {
+      max-width: 100%;
+      justify-content: center;
+      overflow-x: hidden !important
+    }
   }
   
