@@ -21,7 +21,8 @@
 }
 
 .container-cards{
-    display: flex;
+    display: block;
+    max-width: 600px;
     justify-content: center;
     margin-top: 5vh;
 }

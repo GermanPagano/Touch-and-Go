@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react'
 import ReplayIcon from "@mui/icons-material/Replay";
 import CloseIcon from "@mui/icons-material/Close";
 import StarIcon from "@mui/icons-material/Star";
@@ -8,26 +8,18 @@ import { IconButton } from "@mui/material";
 import './btnsStyles.css';
 
 
-function ButtonsAction() {
 
+function ButtonsAction( lastDirection ) {
 
-    const handleRestore = () => {
-       console.log('retroceder' )
-    }
-
-    const handleClose = () => {
-        console.log('rechazar')
-     }
- 
 
   return (
     <div className="btnAction">
 
-      <IconButton className="btnAction-replay pressable" onClick={ handleRestore }>
+      <IconButton className="btnAction-replay">
         <ReplayIcon font="large"  />
         </IconButton>
 
-        <IconButton className="btnAction-close" onClick={ handleClose }>
+        <IconButton className="btnAction-close" >
         <CloseIcon font="large" />
         </IconButton>
 
