@@ -6,6 +6,8 @@ import {  collection, getDocs } from "firebase/firestore";
 
 function ProfilesCards() {
   const [dataMatch, setDataMatch] = useState([]);
+  const [lastDirection, setLastDirection] = useState()
+
 
   useEffect(() => {
 
@@ -25,7 +27,14 @@ function ProfilesCards() {
     fetchData();
   }, []);
 
-
+  const swiped = (direction, nameToDelete) => {
+    console.log('removing: ' + nameToDelete )
+    setLastDirection(direction)
+    
+  }
+  const outOfFrame = (name) => {
+    console.log(name + ' out the screen!', )
+  }
 
   return (
     <div className="cards-profiles">
@@ -35,10 +44,13 @@ function ProfilesCards() {
             className="swipe"
             key={p.nombre}
             preventSwipe={["up", "down"]}
+            onSwipe={(dir) => swiped(dir, p.nombre)}
+            onCardLeftScreen={() => outOfFrame(p.nombre)}
           >
             <div
               className="card-tinder"
               style={{ backgroundImage: `url(${p.url})` }}
+              
             >
               <h2>{p.nombre}</h2>
             </div>
@@ -47,6 +59,7 @@ function ProfilesCards() {
         ))}
 
       </div>
+
     </div>
   );
 }

@@ -9,13 +9,25 @@ import './btnsStyles.css';
 
 
 function ButtonsAction() {
+
+
+    const handleRestore = () => {
+       console.log('retroceder' )
+    }
+
+    const handleClose = () => {
+        console.log('rechazar')
+     }
+ 
+
   return (
     <div className="btnAction">
-      <IconButton className="btnAction-replay">
-        <ReplayIcon font="large" />
+
+      <IconButton className="btnAction-replay pressable" onClick={ handleRestore }>
+        <ReplayIcon font="large"  />
         </IconButton>
 
-        <IconButton className="btnAction-close">
+        <IconButton className="btnAction-close" onClick={ handleClose }>
         <CloseIcon font="large" />
         </IconButton>
 

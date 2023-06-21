@@ -10,3 +10,25 @@
     background-color: white;
     box-shadow: 0 10px 50px rgba(0, 0, 0, 0.204);
 }
+
+.btnAction-replay{
+    padding: 3vw !important;
+    color: orange !important;
+}
+
+.btnAction-close{
+    padding: 3vw !important;
+    color: rgb(187, 29, 29) !important;
+}
+.btnAction-star{
+    padding: 3vw !important;
+    color: rgb(64, 142, 211)!important;
+}
+.btnAction-fav{
+    padding: 3vw !important;
+    color: rgb(82, 165, 82)!important;
+}
+.btnAction-flash{
+    padding: 3vw !important;
+    color: purple!important;
+}
