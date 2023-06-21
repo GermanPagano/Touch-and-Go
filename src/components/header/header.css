@@ -1,16 +1,15 @@
 .header{
 
     display: flex;
-    padding: 0.5rem;
-    flex-direction:row;
+    padding: 0.8rem;
     justify-content: space-between;
     align-items: center;
-    border-bottom: 1px solid #fbfbfb;
+
 
 }
 
 .header-logo{
-    max-width: 200px;
+    max-width: 150px;
     object-fit: contain;
 }
 

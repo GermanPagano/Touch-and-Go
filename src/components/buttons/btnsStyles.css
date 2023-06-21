@@ -1,14 +1,16 @@
 .btnAction{
     display: flex;
     width: 100%;
-    position: fixed;
-    bottom: 10vh;
+    position: absolute;
+    bottom: 0vh;
     justify-content: space-evenly;
+    padding: 0.5rem;
 }
 
 .btnAction .MuiButtonBase-root {
     background-color: white;
-    box-shadow: 0 10px 50px rgba(0, 0, 0, 0.204);
+    box-shadow: 0px 3px 20px rgba(0, 0, 0, 0.353);
+
 }
 
 .btnAction-replay{
@@ -32,3 +34,17 @@
     padding: 3vw !important;
     color: purple!important;
 }
+
+@media (min-width: 350px) and (max-width: 768px) {
+
+    .btnAction{
+        display: flex;
+        width: 100%;
+        position: absolute;
+
+        justify-content: space-evenly;
+        padding: 1rem;
+    }
+
+  }
+  

@@ -81,6 +81,7 @@ function ProfilesCards() {
   };
 
   return (
+    <div className="cards-and-buttons"> 
     <div className="cards-profiles">
       <div className="container-cards">
         {dataMatch.map((p, index) => (
@@ -101,9 +102,9 @@ function ProfilesCards() {
           </TinderCard>
         ))}
       </div>
+    </div>
 
-
-      <div className="btnAction">
+    <div className="btnAction">
         <IconButton
           className="btnAction-replay"
           style={{ backgroundColor: !canGoBack && "#c3c4d3" }}
@@ -136,6 +137,7 @@ function ProfilesCards() {
           <FlashOnIcon font="large" />
         </IconButton>
       </div>
+
     </div>
   );
 }
