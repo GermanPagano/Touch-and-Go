@@ -82,7 +82,7 @@ function ProfilesCards() {
 
   return (
     <div className="cards-and-buttons"> 
-    <div className="cards-profiles">
+    
       <div className="container-cards">
         {dataMatch.map((p, index) => (
           <TinderCard
@@ -102,7 +102,7 @@ function ProfilesCards() {
           </TinderCard>
         ))}
       </div>
-    </div>
+
 
     <div className="btnAction">
         <IconButton

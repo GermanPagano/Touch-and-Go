@@ -17,8 +17,7 @@ function App() {
          <Routes>
             <Route path="/perfil" element={"tu perfil"} />
             <Route path="/chats" element={"tus chats"} />
-            <Route path="/" element={<ProfilesCards/>}
-            ></Route>
+            <Route path="/" element={<ProfilesCards/>}/>
           </Routes> 
         </Router>
       </ProfilesCardsContextProvider>

@@ -1,5 +1,10 @@
-*{
-    overflow-x: hidden !important;
-    overflow-y: hidden !important;
-}
-
+body {
+    overflow: hidden !important;
+    
+  }
+  @media (max-width: 768px) {
+    body {
+      overflow: hidden !important;
+    }
+  }
+  
