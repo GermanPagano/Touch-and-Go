@@ -14,7 +14,6 @@ import "../buttons/btnsStyles.css";
 function ProfilesCards() {
   const [dataMatch, setDataMatch] = useState([]);
   const [currentIndex, setCurrentIndex] = useState(0);
-  const [lastDirection, setLastDirection] = useState();
   // used for outOfFrame closure
   const currentIndexRef = useRef(currentIndex);
 
@@ -60,7 +59,6 @@ function ProfilesCards() {
 
   // set last direction and decrease current index
   const swiped = (direction, index) => {
-    setLastDirection(direction);
     updateCurrentIndex(index - 1);
   };
 
@@ -106,7 +104,7 @@ function ProfilesCards() {
         ))}
       </div>
 
-
+          
     <div className="btnAction">
         <IconButton
           className="btnAction-replay"

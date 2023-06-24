@@ -4,12 +4,13 @@
   min-height: 100vh;
   overflow: hidden;
   background: linear-gradient(#d1171740, #ffffff);
+  will-change: transform;
 }
 
 
 
 
-  @media (max-width: 768px) {
+  @media  (min-width: 350px) and (max-width: 768px) {
     body {
       overflow: hidden !important;
     }
