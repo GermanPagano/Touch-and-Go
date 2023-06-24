@@ -1,14 +1,15 @@
 #root {
-
-
   min-height: 100vh;
   overflow: hidden;
   background: linear-gradient(#d1171740, #ffffff);
+  cursor: url("https://uploads.codesandbox.io/uploads/user/b3e56831-8b98-4fee-b941-0e27f39883ab/Ad1_-cursor.png")
+  15 15 ,auto;
 }
 
 body {
   overscroll-behavior-y: contain !important;
   overscroll-behavior-x: contain !important;
+
 }
 
   @media  (min-width: 350px) and (max-width: 768px) {
