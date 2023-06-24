@@ -1,7 +1,14 @@
-body {
-    overflow: hidden !important;
-    
-  }
+#root {
+
+  width: 100vw;
+  min-height: 100vh;
+  overflow: hidden;
+  background: linear-gradient(#d1171740, #ffffff);
+}
+
+
+
+
   @media (max-width: 768px) {
     body {
       overflow: hidden !important;

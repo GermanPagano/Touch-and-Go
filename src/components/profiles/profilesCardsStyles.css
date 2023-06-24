@@ -12,7 +12,7 @@
 
 .swipe {
   position: absolute;
-  touch-action: none
+  touch-action: none !important;
 }
 
 .card-tinder {
@@ -32,4 +32,39 @@
     color: white;
   }
   
- 
+  .btnAction{
+    display: flex;
+    width: 100%;
+    position: absolute;
+    bottom: 0vh;
+    justify-content: space-evenly;
+    padding: 0.5rem;
+}
+
+.btnAction .MuiButtonBase-root {
+    background-color: white;
+    box-shadow: 0px 3px 20px rgba(0, 0, 0, 0.353);
+
+}
+
+.btnAction-replay{
+    padding: 3vw !important;
+    color: orange !important;
+}
+
+.btnAction-close{
+    padding: 3vw !important;
+    color: rgb(187, 29, 29) !important;
+}
+.btnAction-star{
+    padding: 3vw !important;
+    color: rgb(64, 142, 211)!important;
+}
+.btnAction-fav{
+    padding: 3vw !important;
+    color: rgb(82, 165, 82)!important;
+}
+.btnAction-flash{
+    padding: 3vw !important;
+    color: purple!important;
+}

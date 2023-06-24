@@ -52,6 +52,9 @@ function ProfilesCards() {
     fetchData();
   }, []);
 
+
+
+
   const canGoBack = currentIndex <= dataMatch.length - 1;
   const canSwipe = currentIndex >= 0;
 
@@ -82,7 +85,7 @@ function ProfilesCards() {
 
   return (
     <div className="cards-and-buttons"> 
-    
+
       <div className="container-cards">
         {dataMatch.map((p, index) => (
           <TinderCard
@@ -107,7 +110,7 @@ function ProfilesCards() {
     <div className="btnAction">
         <IconButton
           className="btnAction-replay"
-          style={{ backgroundColor: !canGoBack && "#c3c4d3" }}
+          style={{ backgroundColor: !canGoBack && "#c3c4d3"}}
           onClick={() => goBack()}
         >
           <ReplayIcon font="large" />
