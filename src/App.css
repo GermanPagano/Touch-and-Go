@@ -4,7 +4,6 @@
   min-height: 100vh;
   overflow: hidden;
   background: linear-gradient(#d1171740, #ffffff);
-  will-change: transform;
 }
 
 
