@@ -9,10 +9,10 @@ function Conversation() {
     {
       name: "maria",
       img: "---",
-      msg: "Hola loco",
+      msg: "Hola loco 🥰",
     },
     { name: "maria", img: "---", msg: "todo bien?" },
-    { msg: "aca estoy, perdon" },
+    { msg: "aca estoy, colgue! 😅" },
   ]);
 
   const handleInputChange = (event) => {
