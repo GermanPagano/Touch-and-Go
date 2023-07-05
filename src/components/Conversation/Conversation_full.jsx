@@ -1,18 +1,11 @@
-import React, { useState, useEffect } from "react";
-import "./conversationStyles.css";
+import React, { useState } from "react";
 import { Avatar } from "@mui/material";
 import SendIcon from "@mui/icons-material/Send";
+import "./conversationStyles.css";
+
 function Conversation() {
-
-  const handleSendMsg = (e) => { e.preventDefault();
-    setMesage([...mesage,{msg:input}]);
-    setInput('');
-}  
-
-
-
   const [input, setInput] = useState("");
-  const [mesage, setMesage] = useState([
+  const [messages, setMessages] = useState([
     {
       name: "maria",
       img: "---",
@@ -22,26 +15,54 @@ function Conversation() {
     { msg: "aca estoy, perdon" },
   ]);
 
+  const handleInputChange = (event) => {
+    setInput(event.target.value);
+  };
+
+  const handleSendMsg = (event) => {
+    event.preventDefault();
+    if (input.trim() !== "") {
+      setMessages([
+        ...messages,
+        { msg: input },
+      ]);
+      setInput("");
+    }
+  };
 
   return (
     <div className="fullConversation">
-      <p className="timestampConversation"> Hicieron Match el 2/07/23 </p>
-      {mesage.map((val) =>
-        val.name ? (
-          <div className="oneMSG">
-            <Avatar className="chat_img" src={val.img} alt={val.name} />
-            <div className="msgText_received">{val.msg}</div>
-          </div>
-        ) : (
-          <div className="oneMSG">
-            <div className="msgText_send">{val.msg}</div>
-          </div>
-        )
-      )}
-
+      <p className="timestampConversation">Hicieron Match el 2/07/23</p>
+      {messages.map((message, index) => (
+        <div className="oneMSG" key={index}>
+          {message.name ? (
+            <>
+              <Avatar
+                className="chat_img"
+                src={message.img}
+                alt={message.name}
+              />
+              <div className="msgText_received">{message.msg}</div>
+            </>
+          ) : (
+            <div className="msgText_send">{message.msg}</div>
+          )}
+        </div>
+      ))}
       <div className="inputChat">
-        <input value={ input }  onChange={ e=> setInput(e.target.value)}placeholder="Envia un mensaje.."></input>
-        <button onClick={ handleSendMsg }  type="submit" className="btn-send-chat"><SendIcon/></button>
+        <input
+          value={input}
+          onChange={handleInputChange}
+          placeholder="Envia un mensaje..."
+        />
+        <button
+          onClick={handleSendMsg}
+          type="submit"
+          className="btn-send-chat"
+          disabled={input.trim() === ""}
+        >
+          <SendIcon />
+        </button>
       </div>
     </div>
   );
