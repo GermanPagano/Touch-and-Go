@@ -10,6 +10,7 @@ import {
   clearAllBodyScrollLocks,
 } from "body-scroll-lock";
 import ChatContainer from './components/ChatsContainer/ChatContainer'
+import Conversation from "./components/Conversation/Conversation_full";
 
 function App() {
   useEffect(() => {
@@ -32,6 +33,7 @@ function App() {
           <Routes>
             <Route path="/perfil" element={"tu perfil"} />
             <Route path="/chats" element={<ChatContainer/>} />
+            <Route path="/chats/:persona" element={<Conversation/>} />
             <Route path="/" element={<ProfilesCards />} />
           </Routes>
         </Router>
