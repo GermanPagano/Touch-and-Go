@@ -3,6 +3,13 @@
 Welcome to Touch and Go 🔥, The dating app that allows you to find your perfect match quickly and easily!
 Whether you're looking for true love or just want to have a good time with someone special, Touch and Go is the perfect platform to do so.
 
+## Technologies
+
+[material ](https://iconos8.es/icon/gFw7X5Tbl3ss/material-ui)
+
+
+
+
 ## Table of Contents
 
 - [Demo](#demo)
@@ -30,3 +37,15 @@ At Touch and Go, we're all about the thrill of dating and the instant connection
 - User Profiles
 - Swipe for Matches
 - Chat
+- 
+
+- ## Installation
+To get started with Touch and Go on your local device, follow these lit steps:
+
+- Clone this repository on your local machine.
+- Install the project dependencies using your favorite package manager.
+- Configure and connect your Firebase database.
+- Launch the app on your device and explore the awesome features of Touch and Go.
+
+## Usage
+This app is just a practice example of user interfaces in React, similar to the Tinder app.
