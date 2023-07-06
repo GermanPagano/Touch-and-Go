@@ -27,6 +27,6 @@ Check out our [ live demo](https://touch-and-go.vercel.app/) to experience the m
 At Touch and Go, we're all about the thrill of dating and the instant connection between people. Our app combines the simplicity of Tinder with a dope and fly interface, giving you a one-of-a-kind experience in finding your perfect match.
 
 ## Features
-User Profiles
-Swipe for Matches
-Chat
+- User Profiles
+- Swipe for Matches
+- Chat
