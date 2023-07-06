@@ -12,6 +12,7 @@ Whether you're looking for true love or just want to have a good time with someo
 
 - ![icons8-ngp-96](https://github.com/GermanPagano/Touch-and-Go/assets/80891761/df22cd08-988c-4230-aae0-66eda87b8b10)
 
+- ![icons8-material-ui-144](https://github.com/GermanPagano/Touch-and-Go/assets/80891761/fb29f5e7-89de-472c-98fb-f56bfae737ad)
 
 
 ## Table of Contents
