@@ -5,8 +5,7 @@ Whether you're looking for true love or just want to have a good time with someo
 
 ## Technologies
 
-[material ](https://iconos8.es/icon/gFw7X5Tbl3ss/material-ui)
-
+![icons8-material-ui-48](https://github.com/GermanPagano/Touch-and-Go/assets/80891761/b70703f5-88e9-4220-9fd9-ecfc5809dbba)
 
 
 
