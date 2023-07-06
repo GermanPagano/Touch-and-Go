@@ -22,3 +22,11 @@ Check out our [ live demo](https://touch-and-go.vercel.app/) to experience the m
 ![chat](https://github.com/GermanPagano/Touch-and-Go/assets/80891761/dfd45d8e-1127-401d-b5f5-ead12095499b)
 ![chat 2](https://github.com/GermanPagano/Touch-and-Go/assets/80891761/cffcaa8e-e19a-4da6-816a-ce6ed1c574c1)
 
+
+## Description
+At Touch and Go, we're all about the thrill of dating and the instant connection between people. Our app combines the simplicity of Tinder with a dope and fly interface, giving you a one-of-a-kind experience in finding your perfect match.
+
+## Features
+User Profiles
+Swipe for Matches
+Chat
