@@ -5,7 +5,12 @@ Whether you're looking for true love or just want to have a good time with someo
 
 ## Technologies
 
-[Material UI]![icons8-material-ui-48](https://github.com/GermanPagano/Touch-and-Go/assets/80891761/b70703f5-88e9-4220-9fd9-ecfc5809dbba)
+![icons8-reaccionar-100](https://github.com/GermanPagano/Touch-and-Go/assets/80891761/0261946b-6a41-4e00-91c2-0f288673651f)
+
+![icons8-material-ui-48](https://github.com/GermanPagano/Touch-and-Go/assets/80891761/b70703f5-88e9-4220-9fd9-ecfc5809dbba)
+![react-router-icon-2048x1116-jfeevj0l](https://github.com/GermanPagano/Touch-and-Go/assets/80891761/5a55eda2-bad8-48b7-a3f6-bf70dbb85457)
+
+
 
 
 
